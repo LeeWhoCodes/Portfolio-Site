@@ -9,5 +9,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Hero />
     <App />
+    <App />
+    <App />
+    <App />
   </StrictMode>,
 )

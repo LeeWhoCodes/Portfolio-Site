@@ -28,6 +28,15 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(./assets/desktopWallpaper.jpg);
+  /* Mobile background image styling */
+  background-size: auto 100%;
+  background-position: right;
+  background-attachment: fixed;
+  /* desktop background image styling */
+  /* background-size: 100%;
+  background-position: bottom;
+  background-attachment: fixed; */
 }
 
 h1 {
