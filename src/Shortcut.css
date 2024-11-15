@@ -1,9 +1,20 @@
-
-/*  */
 img {
-    width: 25px;
+    width: 4rem;
+    padding: 0.2rem;
 }
 
 button {
-    width: 5rem;
+    background-color: transparent;
+    border: solid 2px transparent;
+    padding: 0;
+}
+ 
+p {
+    text-shadow: 1px 1px 4px black;
+    margin: 0.5rem;
+} 
+
+button:hover {
+    background-color: rgb(255, 255, 255, 0.30);
+    border: 2px solid rgb(255, 255, 255, 0.40);
 }
