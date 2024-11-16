@@ -1,6 +1,5 @@
 import profilePic from './assets/LeeHeadshot.jpg'
 import './Shortcut.css'
-import './Hero.css'
 
 function Shortcut() {
     return (
