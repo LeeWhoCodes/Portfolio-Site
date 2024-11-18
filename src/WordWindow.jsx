@@ -3,41 +3,43 @@ import phNight from './assets/phNight.jpg';
 import phHouse from './assets/phHouse.jpg';
 
 import React, { useState } from 'react';
-import Card from './Card';
-import './Window.css'
+import BlogCard from './BlogCard';
+import './WordWindow.css'
 
-function Window() {
+function WordWindow() {
     const [description, setDescription] = useState('Hello');
 
     const projects = [
         {
             id: 1,
-            title: 'Portfolio Webstie',
+            title: 'blog 1',
             image: phDay,
-            description: 'this here website a personal portfolio project',
+            description: 'blog number 1',
         },
         {
             id: 2,
-            title: 'Budgeting Webapp',
+            title: 'blog 2',
             image: phHouse,
-            description: 'A web app I created to help players of the game warframe find out where to get items so they can get back to playing',
+            description: 'blog number 2',
         },
         {
             id: 3,
-            title: 'Warframe Webapp',
+            title: 'blog 3',
             image: phNight,
-            description: 'this here website a personal portfolio project',
+            description: 'blog number 3',
         },
     ];
 
     return (
-        <section className='window'>
+        <section className='word-window'>
+            <h2 className='word-header'>Projects</h2>
             <div className='card-container'>
                 {projects.map((project) => (
-                    <Card
+                    <BlogCard
                         key={project.id}
                         title={project.title}
                         image={project.image}
+                        desc={project.description}
                         onHover={() => setDescription(project.description)}
                         onLeave={() => setDescription('')}
                     />
@@ -50,4 +52,4 @@ function Window() {
     );
 }
 
-export default Window
+export default WordWindow

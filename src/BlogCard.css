@@ -1,0 +1,19 @@
+.blog-card-container {
+    background-color: #e7e7e7;
+    margin: 1rem 2rem;
+    padding: 1rem
+}
+
+.blog-image {
+    width: 8rem
+}
+
+.blog-title {
+    color: black;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.blog-description {
+    color: black;
+}

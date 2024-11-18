@@ -1,0 +1,23 @@
+.word-window {
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    background-color: #b9b9b9;
+    margin-top: 12rem;
+    height: 90vh;
+    border: #7982a9 2px solid;
+}
+
+.card-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.word-header {
+    background-color: #2b599c;
+    margin: 0;
+    padding: 1.25rem;
+    /* flex-shrink: 0; */
+}

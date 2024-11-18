@@ -1,0 +1,29 @@
+.vs-window {
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    background-color: #24283b;
+    margin-top: 12rem;
+    height: 90vh;
+    border: #7982a9 2px solid;
+}
+
+.card-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-header {
+    background-color: #141723;
+    margin: 0;
+    padding: 1.25rem;
+    /* flex-shrink: 0; */
+}
+
+/* .terminal {
+    background-color: #141723;
+    margin-top: auto;
+    flex-grow: 1;
+} */
